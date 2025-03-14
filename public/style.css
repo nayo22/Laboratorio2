@@ -30,6 +30,10 @@ header {
   border-radius: 12px 12px 0 0;
 }
 
+.logo img {
+  height: 40px;
+}
+
 nav a {
   color: white;
   text-decoration: none;
