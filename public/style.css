@@ -130,3 +130,8 @@ section p {
   font-size: 1rem;
   transition: border-color 0.3s, box-shadow 0.3s;
 }
+
+.search-bar input:focus {
+  border-color: #d92eac;
+  box-shadow: 0 0 0 3px rgba(217, 46, 172, 0.2);
+}
