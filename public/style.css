@@ -21,6 +21,11 @@ body {
 /*Header*/
 
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
   background-color: #efa7a7;
   padding: 12px 24px;
   display: flex;
