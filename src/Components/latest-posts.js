@@ -4,20 +4,29 @@ class LatestPosts extends HTMLElement {
 
     this.innerHTML = `
       <section class="latest-section">
-      <h2 class="latest-titel>Latest Posts</h2>
-      <div class="latest-container">
-      ${this.renderPosts}
-      </div>
+        <h2 class="latest-title">Latest</h2>
+        <div class="latest-container">
+          ${this.renderPosts()}
+        </div>
       </section>
     `;
   }
+
   renderPosts() {
-    return `
-      <article class="post">
-        <h3>Post Title</h3>
-        <p>Post description goes here...</p>
-      </article>
-    `;
-  }
+  const posts = [
+    {
+      title: 'Post 1',
+      content: 'Post content goes here...'
+    },
+    {
+      title: 'Post 2',
+      content: 'Post content goes here...'
+    },
+    {
+      title: 'Post 3',
+      content: 'Post content goes here...'
+    }
+  ];
+}
 }
 customElements.define('latest-posts', LatestPosts);
