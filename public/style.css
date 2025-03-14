@@ -268,7 +268,18 @@ section p {
 
 .post-description {
   font-size: 0.875rem;
-  color: #6b7280;
-  margin-bottom: 1rem;
+  color: #4b5563;
+  margin-bottom: 1.5rem;
   line-height: 1.5;
+}
+
+.post-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
 }
