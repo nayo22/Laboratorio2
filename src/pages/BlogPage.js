@@ -7,10 +7,10 @@ class BlogPage extends HTMLElement{
         super();
     }
 
-    Connectcallback (){
+    connectedCallback (){
         this.render();
     }
-    
+
     
 }
 
