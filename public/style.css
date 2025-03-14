@@ -62,5 +62,12 @@ header button {
 
 header button:hover {
   background-color: #d92eac;
- 
+
+}
+
+header button:nth-child(1) {
+  background-color: #f8f8f8;
+  color: #333;
+  border: 1px solid #d92eac;
+  
 }
