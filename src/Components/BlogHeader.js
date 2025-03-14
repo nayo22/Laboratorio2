@@ -9,10 +9,10 @@ class BlogHeader extends HTMLElement {
 
   render() {
     this.innerHTML = `
-      <header class="header">
-       <h1>Blog</h1>
-       <p>Stay in the loop with the latest about our products</p>
-      </header>
+      <section class="blog-header">
+        <h1>Blog</h1>
+        <p>Stay in the loop with the latest about our products</p>
+      </section>
     `;
   }
 
