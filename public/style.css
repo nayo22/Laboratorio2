@@ -102,11 +102,18 @@ button.sign-up:hover {
 
 /*categorias*/
 
-.container {
+.categories-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
 
+.categories {
   display: flex;
   gap: 0.5rem;
-  margin-bottom: 2rem;
+  flex-wrap: wrap;
 }
 
 .categories button {
