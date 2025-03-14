@@ -401,3 +401,39 @@ section p {
   transition: color 0.3s ease;
 }
 
+.footer-links ul li:hover {
+  color: #d81b60;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  color: #999;
+  font-size: 14px;
+}
+
+/*media queries*/
+
+@media (max-width: 768px) {
+  header nav {
+    display: none;
+  }
+
+  header .container {
+    justify-content: space-between;
+  }
+
+  section h1 {
+    font-size: 2rem;
+  }
+
+  .categories {
+    flex-wrap: wrap;
+  }
+
+  .blog-card img {
+    height: 150px;
+  }
+
+
+}
