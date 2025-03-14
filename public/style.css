@@ -139,12 +139,14 @@ section p {
 
 .categories-wrapper {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   gap: 1rem;
   flex-wrap: wrap;
 }
 
 .categories {
   display: flex;
-  gap: 1rem;
+  gap: 0.5rem;
   flex-wrap: wrap;
 }
