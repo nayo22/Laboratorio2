@@ -30,6 +30,12 @@ header {
   border-radius: 12px 12px 0 0;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+
 .logo img {
   height: 40px;
 }
