@@ -112,5 +112,5 @@ section p {
 
 .categories button:hover {
   background-color: #f1c1c1;
-  color: #fff;
+  border-color: rgb(235, 165, 200);
 }
