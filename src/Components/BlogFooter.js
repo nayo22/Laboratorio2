@@ -45,5 +45,7 @@ class BlogFooter extends HTMLElement {
         </div>
       </footer>
     `;
+    this.appendChild(template.content.cloneNode(true));
   }
 }
+customElements.define('blog-footer', BlogFooter);
