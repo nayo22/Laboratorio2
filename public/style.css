@@ -29,3 +29,11 @@ header {
   border-radius: 10px;
   box-shadow: 0 4px 13px rgba(0, 0, 0, 0.1);
 }
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+
+}
