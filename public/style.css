@@ -195,3 +195,10 @@ section p {
 .blog-card .content {
   padding: 1.5rem;
 }
+
+.blog-card-content small {
+  color: #757575;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: inline-block;
+}
