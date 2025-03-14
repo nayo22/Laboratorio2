@@ -12,7 +12,7 @@ class BlogPage extends HTMLElement{
     }
 
     render() {
-        this.appendChild = `
+        this.innerHTML = `
           <blog-header></blog-header>
           <blog-main></blog-main>
           <blog-footer></blog-footer>
