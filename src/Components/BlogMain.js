@@ -20,4 +20,4 @@ class BlogMain extends HTMLElement {
 
 }
 
-customElements.define('blog-header', BlogHeader);
+customElements.define('blog-main', BlogMain);
