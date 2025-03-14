@@ -109,3 +109,8 @@ section p {
   cursor: pointer;
   transition: background-color 0.3s, border-color 0.3s;
 }
+
+.categories button:hover {
+  background-color: #f1c1c1;
+  color: #fff;
+}
