@@ -1,6 +1,6 @@
-import "../Components/BlogHeader.js";
-import "../Components/BlogMain.js";
-import "../Components/BlogFooter.js";
+import "../components/BlogHeader.js";
+import "../components/BlogMain.js";
+import "../components/BlogFooter.js";
 
 class BlogPage extends HTMLElement{
     constructor() {
@@ -21,7 +21,7 @@ class BlogPage extends HTMLElement{
     }
 
     customElements.define("blog-page", BlogPage);
-    
-    
+
+
 
 
