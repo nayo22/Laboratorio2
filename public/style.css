@@ -258,3 +258,17 @@ section p {
   text-transform: uppercase;
   margin-bottom: 0.5rem;
 }
+
+.post-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.75rem;
+}
+
+.post-description {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
