@@ -335,14 +335,16 @@ section p {
 }
 
 .footer-top .newsletter {
-  max-width: 400px;
+  max-width: 350px;
 }
 
 .footer-top .newsletter h3 {
-  font-size: 24px;
-  margin-bottom: 20px;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
 .footer-top .newsletter p {
+  font-size: 14px;
+  margin-bottom: 15px;
   color: #666;
 }
