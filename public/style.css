@@ -379,15 +379,14 @@ section p {
 }
 
 .footer-links div {
-  flex: 1;
+  flex: 1 1 150px;
   margin-bottom: 20px;
 }
 
 .footer-links h4 {
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 16px;
   color: #d81b60;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .footer-links ul {
@@ -396,6 +395,9 @@ section p {
 }
 
 .footer-links ul li {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s ease;
 }
 
