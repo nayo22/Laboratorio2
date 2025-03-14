@@ -333,3 +333,16 @@ section p {
   font-weight: bold;
   color: #d81b60;
 }
+
+.footer-top .newsletter {
+  max-width: 400px;
+}
+
+.footer-top .newsletter h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.footer-top .newsletter p {
+  color: #666;
+}
