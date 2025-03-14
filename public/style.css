@@ -66,8 +66,8 @@ header button:hover {
 }
 
 header button:nth-child(1) {
-  background-color: #f8f8f8;
-  color: #333;
+  background-color: transparent;
+  color: #d92eac;
   border: 1px solid #d92eac;
-  
+  margin-right: 10rem;
 }
