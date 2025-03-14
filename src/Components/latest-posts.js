@@ -49,6 +49,22 @@ class LatestPosts extends HTMLElement {
       date:"March 9, 2025"
     }
   ];
+
+  return posts.map(post => `
+    <div class="latest-post">
+    <span class="post-category">${post.category}</span>
+    <h3 class="post-title">${post.title}</h3>
+    <p class="post-description">${post.description}</p>
+    <div class="post-footer">
+    <div class="author-info">
+    <img src="${post.avatar}" alt="${post.author}" class="author-avatar" />
+    <span class="author-name">${post.author}</span>
+    </div>
+    <span class="post-date">${post.date}</span>
+    </div>
+    </div>
+  `).join('');
+
 }
 }
 customElements.define('latest-posts', LatestPosts);
