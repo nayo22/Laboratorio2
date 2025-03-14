@@ -11,7 +11,15 @@ class BlogPage extends HTMLElement{
         this.render();
     }
 
+    render() {
+        this.appendChild = `
+          <blog-header></blog-header>
+          <blog-main></blog-main>
+          <blog-footer></blog-footer>
+        `;
+      }
+    }
     
-}
+    
 
 
