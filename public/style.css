@@ -136,11 +136,11 @@ button.sign-up:hover {
 
 .search-bar {
   display: flex;
-  margin-bottom: 2rem;
+  justify-content: flex-end;
 }
 
 .search-bar input {
-  width: 100%;
+  width: 300px;
   padding: 0.75rem 1rem;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -152,32 +152,6 @@ button.sign-up:hover {
   border-color: #d92eac;
   box-shadow: 0 0 5px #b13870;
   outline: none;
-}
-
-.categories-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-.categories {
-  display: flex;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-}
-
-.search-bar {
-  display: flex;
-  flex: 1;
-  justify-content: flex-end;
-
-}
-
-.search-bar input {
-  width: 300px;
-  max-width: 100%;
 }
 
 /*blog grid*/
