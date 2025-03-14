@@ -59,3 +59,8 @@ header button {
   cursor: pointer;
   transition: background-color 0.3s;
 }
+
+header button:hover {
+  background-color: #d92eac;
+  color: #333;
+}
