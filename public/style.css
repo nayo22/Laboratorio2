@@ -313,20 +313,23 @@ section p {
 /*footer*/
 
 .footer {
-  background-color: #d92eac;
-  color: #fff;
-  padding: 2rem 0;
-  text-align: center;
+  background-color: #fce4ec;
+  color: #333;
+  padding: 60px 40px;
+  font-family: "Arial", sans-serif;
 }
 
 .footer-top {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 40px;
 }
 
 .footer-top .logo {
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: 28px;
+  font-weight: bold;
+  color: #d81b60;
 }
