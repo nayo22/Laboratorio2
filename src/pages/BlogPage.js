@@ -19,6 +19,8 @@ class BlogPage extends HTMLElement{
         `;
       }
     }
+
+    customElements.define("blog-page", BlogPage);
     
     
 
