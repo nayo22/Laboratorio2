@@ -38,3 +38,13 @@ header .container {
   gap: 2rem;
 
 }
+
+header nav a {
+
+  margin: 0 1rem;
+  color: #f8f8f8;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: 1.2rem;
+}
