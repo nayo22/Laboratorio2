@@ -8,10 +8,12 @@ class BlogHeader extends HTMLElement {
   }
 
   render() {
-    const template = document.createElement('template');
-    template.innerHTML = `
-    <header class="header">
-      <div class="header-top`;
+    this.innerHTML = `
+      <header class="header">
+       <h1>Blog</h1>
+       <p>Stay in the loop with the latest about our products</p>
+      </header>
+    `;
   }
 
 }
