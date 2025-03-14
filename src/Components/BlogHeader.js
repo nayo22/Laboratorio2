@@ -17,3 +17,5 @@ class BlogHeader extends HTMLElement {
   }
 
 }
+
+customElements.define('blog-header', BlogHeader);
