@@ -8,26 +8,25 @@
 </head>
 <body>
 
-    <header>
-        <div class="container" style= "display: flex; justify-content: flex-start; align-items: center;gap: 3rem;">
-     <div>
-        <img src="./images/logo.png" alt="Logo yo me llamo" style="height: 60px;" />
-     </div>
-     <nav>
-        <a href="#">Features</a>
-        <a href="#">Testimonials</a>
-        <a href="#">Highlights</a>
-        <a href="#">Pricing</a>
-        <a href="#">FAQ</a>
-        <a href="#">Blog</a>
+    <header class="header">
+        <div class="logo">
+            <img src="./images/logo.png" alt="Logo Yo me llamo" />
+        </div>
+        <nav class="nav">
+            <a href="#">Features</a>
+            <a href="#">Testimonials</a>
+            <a href="#">Highlights</a>
+            <a href="#">Pricing</a>
+            <a href="#">FAQ</a>
+            <a href="#">Blog</a>
         </nav>
-        <div>
-           <button style="margin-right: 10rem;">Sign in</button>
-           <button>Sign up</button>
+        <div class="button-container">
+            <button class="sign-in">Sign in</button>
+            <button class="sign-up">Sign up</button>
         </div>
-        </div>
-
     </header>
+
+
 <section class="container" style="padding: 0.8rem 2rem 1 rem;">
     <h1 style="font-size: 3rem; margin-bottom: 1rem">Blog</h1>
     <p style="font-size: 0.9rem; margin-bottom: 0rem;">Stay in the loop with the latest about our news, we got the best ones</p>
@@ -105,7 +104,7 @@
         </div>
     </main>
 
-    
+
     <script type="module" src="../src/components/latest-posts.js"></script>
     <latest-posts></latest-posts>
 
