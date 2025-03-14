@@ -136,3 +136,15 @@ section p {
   box-shadow: 0 0 5px #b13870;
   outline: none;
 }
+
+.categories-wrapper {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.categories {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
