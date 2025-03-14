@@ -23,7 +23,27 @@ class BlogFooter extends HTMLElement {
               <li>Highlights</li>
               <li>Pricing</li>
               <li>FAQs</li>
-               </ul>
+            </ul>
+    </div>
+     </div>
+          <div class="company">
+            <h4>Company</h4>
+            <ul>
+              <li>About us</li>
+              <li>Careers</li>
+              <li>Press</li>
+            </ul>
+          </div>
+          <div class="legal">
+            <h4>Legal</h4>
+            <ul>
+              <li>Terms</li>
+              <li>Privacy</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+        </div>
+      </footer>
     `;
   }
 }
