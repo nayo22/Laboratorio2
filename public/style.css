@@ -71,3 +71,7 @@ header button:nth-child(1) {
   border: 1px solid #d92eac;
   margin-right: 10rem;
 }
+
+header button:nth-child(1):hover {
+  background-color: #e3f2fd;
+}
