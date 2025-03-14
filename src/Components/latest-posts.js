@@ -15,16 +15,38 @@ class LatestPosts extends HTMLElement {
   renderPosts() {
   const posts = [
     {
+      category: 'Tech',
       title: 'Post 1',
-      content: 'Post content goes here...'
+      description:
+      author:
+      avatar:
+      date:
+
     },
     {
-      title: 'Post 2',
-      content: 'Post content goes here...'
+      category: 'Tech',
+      title: 'Post 1',
+      description:
+      author:
+      avatar:
+      date:
     },
     {
-      title: 'Post 3',
-      content: 'Post content goes here...'
+      category: 'Tech',
+      title: 'Post 1',
+      description:
+      author:
+      avatar:
+      date:
+    }
+    {
+
+      category: 'Tech',
+      title: 'Post 1',
+      description:
+      author:
+      avatar:
+      date:
     }
   ];
 }
