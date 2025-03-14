@@ -98,3 +98,14 @@ section p {
   gap: 0.5rem;
   margin-bottom: 2rem;
 }
+
+.categories button {
+  background-color: #d92eac;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
