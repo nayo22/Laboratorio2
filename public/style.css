@@ -203,3 +203,15 @@ section p {
   display: inline-block;
   margin-bottom: 0.5rem;
 }
+
+.blog-card-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #212121;
+}
+
+.blog-card-content p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #212121;
+}
