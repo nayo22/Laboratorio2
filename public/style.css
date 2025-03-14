@@ -211,7 +211,8 @@ section p {
 }
 
 .blog-card-content p {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  color: #212121;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  color: #616161;
 }
+
